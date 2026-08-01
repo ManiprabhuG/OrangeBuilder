@@ -67,9 +67,31 @@ export default function AboutPage() {
 
       {/* Mission & Vision */}
       <section className="bg-gray-50 dark:bg-[#141A21] py-16 border-y border-gray-200 dark:border-gray-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+          
+          {/* Mission Featured Visual */}
+          <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-gray-200 dark:border-gray-800 h-[380px] group">
+            <Image
+              src="/images/mission.png"
+              alt="Quality Residential Construction in Madurai - Orange Builders Mission"
+              fill
+              className="object-cover group-hover:scale-105 transition-transform duration-700"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-transparent" />
+            <div className="absolute bottom-8 left-8 right-8 text-white space-y-2">
+              <span className="bg-[#F95700] text-white text-xs font-extrabold px-3 py-1 rounded-full uppercase tracking-wider">
+                Company Mission Showcase
+              </span>
+              <h2 className="text-2xl sm:text-3xl font-extrabold leading-tight">
+                Quality Residential Construction in Madurai: Affordable, Timely & Transparent
+              </h2>
+              <p className="text-xs sm:text-sm text-gray-200 max-w-2xl">
+                Engineering dream homes in Madurai with zero hidden costs, rigid structural standards, and dedicated site execution.
+              </p>
+            </div>
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            
             <div className="bg-white dark:bg-[#1C242E] p-8 rounded-2xl border border-gray-100 dark:border-gray-800 shadow-sm space-y-4">
               <div className="w-12 h-12 rounded-xl bg-orange-100 dark:bg-orange-950/50 flex items-center justify-center text-[#F95700]">
                 <Target className="w-6 h-6" />
@@ -89,8 +111,8 @@ export default function AboutPage() {
                 To become Madurai’s most trusted name in residential house construction by setting benchmarks in structural quality, worker safety, transparent communication, and absolute client satisfaction.
               </p>
             </div>
-
           </div>
+
         </div>
       </section>
 

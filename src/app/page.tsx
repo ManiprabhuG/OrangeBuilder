@@ -148,38 +148,52 @@ export default function HomePage() {
 
             </motion.div>
 
-            {/* Right Card / Visual Section */}
+            {/* Right Card / Visual Section without image */}
             <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6, delay: 0.2 }}
               className="lg:col-span-5 relative"
             >
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-gray-800 bg-[#181F26] p-3 group">
-                <div className="relative h-96 w-full rounded-xl overflow-hidden">
-                  <Image
-                    src="/images/tips-1.jpg"
-                    alt="Orange Builders Active Construction Site in Madurai"
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-500"
-                    priority
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-                  
-                  {/* Floating Live Badge */}
-                  <div className="absolute top-4 left-4 bg-black/60 backdrop-blur-md px-3 py-1.5 rounded-full border border-white/20 flex items-center space-x-2 text-xs font-semibold text-white">
-                    <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-                    <span>Live Madurai Site Execution</span>
+              <div className="rounded-2xl border border-gray-800 bg-[#181F26] p-6 shadow-2xl space-y-6">
+                <div className="flex justify-between items-center border-b border-gray-800 pb-4">
+                  <div className="flex items-center space-x-2">
+                    <span className="w-3 h-3 rounded-full bg-emerald-500 animate-pulse" />
+                    <span className="text-xs font-bold text-gray-200 uppercase tracking-wider">
+                      Live Site Monitoring
+                    </span>
+                  </div>
+                  <span className="bg-[#F95700]/20 text-[#F95700] border border-[#F95700]/40 text-[11px] font-bold px-2.5 py-1 rounded-full">
+                    Madurai
+                  </span>
+                </div>
+
+                <div className="space-y-4">
+                  <div className="p-4 rounded-xl bg-[#12161A] border border-gray-800 space-y-2">
+                    <div className="flex justify-between items-center text-xs text-gray-400">
+                      <span>Supervision Lead</span>
+                      <span className="text-amber-400 font-semibold">Er. Nowsadh</span>
+                    </div>
+                    <p className="text-sm font-bold text-white">
+                      Turnkey & Labour Contract Site Execution
+                    </p>
                   </div>
 
-                  {/* Bottom Info Overlay */}
-                  <div className="absolute bottom-4 left-4 right-4 bg-white/10 backdrop-blur-md p-4 rounded-xl border border-white/10 text-white">
-                    <div className="flex justify-between items-center text-xs font-semibold">
-                      <span>Er. Nowsadh Site Team</span>
-                      <span className="text-amber-400">Quality Verified</span>
+                  <div className="grid grid-cols-2 gap-3">
+                    <div className="p-3.5 rounded-xl bg-[#12161A] border border-gray-800 space-y-1">
+                      <span className="text-[10px] text-gray-400 font-semibold uppercase">Pricing Policy</span>
+                      <p className="text-xs font-bold text-emerald-400">100% Transparent</p>
                     </div>
-                    <p className="text-sm font-medium mt-1 text-gray-200">
-                      Sathamangalam G+1 Residential Villa Project
+                    <div className="p-3.5 rounded-xl bg-[#12161A] border border-gray-800 space-y-1">
+                      <span className="text-[10px] text-gray-400 font-semibold uppercase">Progress Log</span>
+                      <p className="text-xs font-bold text-amber-400">Daily WhatsApp Updates</p>
+                    </div>
+                  </div>
+
+                  <div className="p-4 rounded-xl bg-orange-950/20 border border-orange-900/40 text-xs text-orange-200 space-y-1">
+                    <p className="font-bold text-sm text-[#F95700]">Engineered Construction</p>
+                    <p className="text-gray-300">
+                      Top-grade TMT steel, high-density chamber red bricks, and continuous 21-day curing monitoring on every site.
                     </p>
                   </div>
                 </div>
