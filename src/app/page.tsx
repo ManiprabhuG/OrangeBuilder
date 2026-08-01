@@ -482,7 +482,7 @@ export default function HomePage() {
           <div className="bg-white dark:bg-[#181F26] rounded-2xl overflow-hidden border border-gray-200 dark:border-gray-800 shadow-md group">
             <div className="relative h-64 w-full">
               <Image
-                src="/images/tips-2.jpg"
+                src="/images/project_sathamangalam.png"
                 alt="Sathamangalam Villa Project"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -505,7 +505,7 @@ export default function HomePage() {
           <div className="bg-white dark:bg-[#181F26] rounded-2xl overflow-hidden border border-gray-200 dark:border-gray-800 shadow-md group">
             <div className="relative h-64 w-full">
               <Image
-                src="/images/tips-3.jpg"
+                src="/images/project_kknagar.png"
                 alt="Madurai RCC Structure Work"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -528,7 +528,7 @@ export default function HomePage() {
           <div className="bg-white dark:bg-[#181F26] rounded-2xl overflow-hidden border border-gray-200 dark:border-gray-800 shadow-md group">
             <div className="relative h-64 w-full">
               <Image
-                src="/images/tips-4.jpg"
+                src="/images/project_annanagar.png"
                 alt="Labour Contract Finishing Work"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"

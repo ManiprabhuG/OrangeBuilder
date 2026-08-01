@@ -15,7 +15,7 @@ export default function ProcessPage() {
     {
       step: '01',
       title: 'Stage 1: Planning & Consultation',
-      image: '/images/tips-1.jpg',
+      image: '/images/process_stage1_planning.png',
       desc: 'Understanding client requirements, site layout verification, budget estimation, structural floor plan finalization, and municipal permission guidance.',
       checklist: [
         'Detailed line-item cost estimation agreement',
@@ -27,7 +27,7 @@ export default function ProcessPage() {
     {
       step: '02',
       title: 'Stage 2: Site Preparation',
-      image: '/images/tips-2.jpg',
+      image: '/images/process_stage2_site_prep.png',
       desc: 'Clearing vegetation, ground leveling, boundary line marking (setbacks), temporary water & electrical setup, and material storage shed construction.',
       checklist: [
         'Boundary demarcation with total station',
@@ -39,7 +39,7 @@ export default function ProcessPage() {
     {
       step: '03',
       title: 'Stage 3: Foundation Work',
-      image: '/images/tips-3.jpg',
+      image: '/images/process_stage3_foundation.png',
       desc: 'Excavation to hard soil strata, Plain Cement Concrete (PCC) bed, RCC isolated column footings, plinth beam RCC, and chemical anti-termite treatment.',
       checklist: [
         'Excavation depth check to hard rock/soil',
@@ -51,7 +51,7 @@ export default function ProcessPage() {
     {
       step: '04',
       title: 'Stage 4: RCC Structure Work',
-      image: '/images/tips-4.jpg',
+      image: '/images/process_stage4_rcc_structure.png',
       desc: 'Erection of RCC columns, beam formwork, lintel beam casting, and roof slab RCC pouring using high-grade cement and vibrator compaction.',
       checklist: [
         'TMT steel bar bending & lap length checks',
@@ -63,7 +63,7 @@ export default function ProcessPage() {
     {
       step: '05',
       title: 'Stage 5: Brickwork & Masonry',
-      image: '/images/tips-5.jpg',
+      image: '/images/process_stage5_brickwork.png',
       desc: 'Laying high-density red chamber bricks with 1:6 cement mortar, column-wall bonding keys, lintel bands, and door/window frame installations.',
       checklist: [
         'Chamber red brick water soaking before laying',
@@ -75,7 +75,7 @@ export default function ProcessPage() {
     {
       step: '06',
       title: 'Stage 6: Plastering & Utility Lines',
-      image: '/images/tips-6.jpg',
+      image: '/images/process_stage6_plastering.png',
       desc: 'Electrical conduit wall chasing, PVC plumbing line installation, double-coat interior smooth plastering, and exterior weatherproof sand plaster.',
       checklist: [
         'PVC electrical conduit box embedding',
@@ -87,7 +87,7 @@ export default function ProcessPage() {
     {
       step: '07',
       title: 'Stage 7: Finishing & Aesthetics',
-      image: '/images/tips-1.jpg',
+      image: '/images/project_tvs_nagar.png',
       desc: 'Vitrified tile laying with tile spacers, wall putty application, primer & paint coats, sanitary fixture fitting, and door/window shutter fixing.',
       checklist: [
         'Vitrified tile level & slope check in toilets',
@@ -99,7 +99,7 @@ export default function ProcessPage() {
     {
       step: '08',
       title: 'Stage 8: Final Quality Audit & Handover',
-      image: '/images/tips-2.jpg',
+      image: '/images/project_madurai_east.png',
       desc: 'Thorough post-construction site cleaning, electrical & plumbing system audit, final quality checklist verification, and key handover ceremony.',
       checklist: [
         'Deep cleaning of tiles, glass, and fixtures',

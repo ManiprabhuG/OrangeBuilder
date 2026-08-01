@@ -31,7 +31,7 @@ export default function GalleryPage() {
       title: 'RCC Column & Slab Steel Binding',
       category: 'site',
       categoryLabel: 'Site Progress',
-      image: '/images/tips-1.jpg',
+      image: '/images/process_stage4_rcc_structure.png',
       caption: 'Reinforcement TMT steel cage erection for G+1 residential house in Madurai.',
     },
     {
@@ -39,7 +39,7 @@ export default function GalleryPage() {
       title: 'Chamber Red Brick Masonry Wall Execution',
       category: 'process',
       categoryLabel: 'Construction Process',
-      image: '/images/tips-2.jpg',
+      image: '/images/process_stage5_brickwork.png',
       caption: 'High-density red brick mortar laying with line and level verification.',
     },
     {
@@ -47,7 +47,7 @@ export default function GalleryPage() {
       title: 'Heavy RCC Roof Slab Pouring & Vibration',
       category: 'process',
       categoryLabel: 'Construction Process',
-      image: '/images/tips-3.jpg',
+      image: '/images/project_kknagar.png',
       caption: 'Concrete pouring with mechanical needle vibrator compaction for maximum strength.',
     },
     {
@@ -55,7 +55,7 @@ export default function GalleryPage() {
       title: 'Double Coat Exterior Plastering & Putty',
       category: 'finishing',
       categoryLabel: 'Finishing Works',
-      image: '/images/tips-4.jpg',
+      image: '/images/process_stage6_plastering.png',
       caption: 'Smooth cement plastering and weatherproof wall coating preparation.',
     },
     {
@@ -63,7 +63,7 @@ export default function GalleryPage() {
       title: 'Completed Turnkey Villa Handover in Madurai',
       category: 'completed',
       categoryLabel: 'Completed Homes',
-      image: '/images/tips-5.jpg',
+      image: '/images/project_madurai_east.png',
       caption: 'Custom residential villa handed over to super happy homeowner.',
     },
     {
@@ -71,7 +71,7 @@ export default function GalleryPage() {
       title: 'Foundation & Plinth Beam Trench Excavation',
       category: 'site',
       categoryLabel: 'Site Progress',
-      image: '/images/tips-6.jpg',
+      image: '/images/process_stage3_foundation.png',
       caption: 'Excavation to hard soil strata with anti-termite treatment.',
     },
   ];

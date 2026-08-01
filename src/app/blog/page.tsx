@@ -26,7 +26,7 @@ export default function BlogPage() {
       category: 'RCC Tips',
       date: 'July 28, 2026',
       author: 'Er. Nowsadh',
-      image: '/images/tips-1.jpg',
+      image: '/images/process_stage4_rcc_structure.png',
       excerpt:
         'Learn how proper concrete mix ratios, mechanical vibration, TMT bar cover blocks, and 21-day water curing prevent roof cracks and leakage in Madurai weather.',
     },
@@ -36,7 +36,7 @@ export default function BlogPage() {
       category: 'Brickwork Tips',
       date: 'July 20, 2026',
       author: 'Orange Builders Team',
-      image: '/images/tips-2.jpg',
+      image: '/images/process_stage5_brickwork.png',
       excerpt:
         'A comprehensive comparison of compressive strength, thermal insulation, water absorption, and cost efficiency between chamber red bricks and flyash bricks.',
     },
@@ -46,7 +46,7 @@ export default function BlogPage() {
       category: 'Waterproofing Tips',
       date: 'July 15, 2026',
       author: 'Er. Nowsadh',
-      image: '/images/tips-3.jpg',
+      image: '/images/project_kknagar.png',
       excerpt:
         'Avoid dampness, saltpetre efflorescence, and ceiling leaks with modern elastomeric chemical waterproofing and brick bat coba slope laying.',
     },
@@ -56,7 +56,7 @@ export default function BlogPage() {
       category: 'Budget Planning',
       date: 'July 10, 2026',
       author: 'Orange Builders Team',
-      image: '/images/tips-4.jpg',
+      image: '/images/process_stage1_planning.png',
       excerpt:
         'Step-by-step framework to calculate structure vs finishing costs, reserve contingency funds, and avoid hidden contractor charges during house building.',
     },
@@ -66,7 +66,7 @@ export default function BlogPage() {
       category: 'Material Selection',
       date: 'June 30, 2026',
       author: 'Er. Nowsadh',
-      image: '/images/tips-5.jpg',
+      image: '/images/process_stage3_foundation.png',
       excerpt:
         'Understanding Fe-550 TMT steel bars, OPC 53 grade cement for RCC structures, and PPC cement for masonry plastering.',
     },
@@ -76,7 +76,7 @@ export default function BlogPage() {
       category: 'Home Construction Tips',
       date: 'June 22, 2026',
       author: 'Orange Builders Team',
-      image: '/images/tips-6.jpg',
+      image: '/images/project_madurai_east.png',
       excerpt:
         'Detailed breakdown of pros, cons, time commitment, and financial control when choosing between pure labour contracts and turnkey construction.',
     },

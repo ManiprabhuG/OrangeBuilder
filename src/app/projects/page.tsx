@@ -31,7 +31,7 @@ export default function ProjectsPage() {
       location: 'Sathamangalam, Madurai',
       status: 'Handed Over (Client: Mohamed Aabid)',
       statusColor: 'bg-emerald-500',
-      image: '/images/tips-2.jpg',
+      image: '/images/project_sathamangalam.png',
       features: ['Individual Home', 'Red Brick Masonry', 'Low Budget Optimization', 'Custom Room Layout'],
       description:
         'Completed within timeline under strict budget control. Included daily progress reporting, custom room layouts, double coat plastering, and high-density brick construction.',
@@ -44,7 +44,7 @@ export default function ProjectsPage() {
       location: 'KK Nagar, Madurai',
       status: 'Active Site Progress (RCC Stage)',
       statusColor: 'bg-[#F95700]',
-      image: '/images/tips-3.jpg',
+      image: '/images/project_kknagar.png',
       features: ['G+1 Frame Structure', 'TMT Bar Bending', 'Heavy Concrete Casting', 'Column Alignment'],
       description:
         'Structural RCC framing for a 2,200 sq ft residential house. Includes foundation excavation, footing casting, RCC columns, plinth beam, and roof slab casting.',
@@ -57,7 +57,7 @@ export default function ProjectsPage() {
       location: 'Anna Nagar, Madurai',
       status: 'Plastering & Tile Work Active',
       statusColor: 'bg-amber-500',
-      image: '/images/tips-4.jpg',
+      image: '/images/project_annanagar.png',
       features: ['Pure Labour Contract', 'Chamber Red Brick Work', 'Double Coat Plaster', 'Tile Installation'],
       description:
         'Labor contract execution for a private residential building. Our master masons executed precision brick masonry and exterior weatherproof plastering.',
@@ -70,7 +70,7 @@ export default function ProjectsPage() {
       location: 'Madurai East',
       status: 'Completed & Handed Over (Client: Abdul Mazeeth)',
       statusColor: 'bg-emerald-500',
-      image: '/images/tips-5.jpg',
+      image: '/images/project_madurai_east.png',
       features: ['Turnkey Construction', 'Quality Tested Materials', 'Sanitary & Electrical', 'Premium Paint Finish'],
       description:
         'Full turnkey residential construction project completed with complete client satisfaction. Focused on top quality materials, zero hidden costs, and on-time completion.',
@@ -83,7 +83,7 @@ export default function ProjectsPage() {
       location: 'Iyer Bungalow, Madurai',
       status: 'Foundation & Brickwork Active',
       statusColor: 'bg-[#F95700]',
-      image: '/images/tips-6.jpg',
+      image: '/images/project_iyer_bungalow.png',
       features: ['Soil Inspection', 'Anti-Termite Treatment', 'Plinth Beam RCC', 'Brick Masonry'],
       description:
         'Ongoing site execution starting from soil compaction, anti-termite chemical injection, heavy plinth RCC beam casting, and basement filling.',
@@ -96,7 +96,7 @@ export default function ProjectsPage() {
       location: 'TVS Nagar, Madurai',
       status: 'Completed (Client: Neethiselvam N)',
       statusColor: 'bg-emerald-500',
-      image: '/images/tips-1.jpg',
+      image: '/images/project_tvs_nagar.png',
       features: ['Compact Space Optimization', 'Neat Structural Design', 'Smooth Putty Finish', 'Tile Fitting'],
       description:
         'Special compact room layout project designed and built according to client requirements. Features high aesthetic finish, neat masonry, and durable materials.',

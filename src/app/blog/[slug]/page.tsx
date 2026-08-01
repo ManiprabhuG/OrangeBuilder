@@ -22,7 +22,7 @@ const articlesData: Record<string, BlogPostData> = {
     category: 'RCC Tips',
     date: 'July 28, 2026',
     author: 'Er. Nowsadh',
-    image: '/images/tips-1.jpg',
+    image: '/images/process_stage4_rcc_structure.png',
     content: [
       'The roof slab is the single most critical structural element in your house. In Madurai’s climate, high summer temperatures can cause rapid evaporation of water from freshly poured concrete, leading to plastic shrinkage cracks and future roof leaks if proper engineering guidelines are not strictly followed.',
       '1. High-Grade Steel & Cover Blocks: Ensure TMT steel bars (Fe-550 grade) are tied with correct lap lengths. Always use 20mm/25mm concrete cover blocks so rebar does not touch the wooden shuttering.',
@@ -38,7 +38,7 @@ const articlesData: Record<string, BlogPostData> = {
     category: 'Brickwork Tips',
     date: 'July 20, 2026',
     author: 'Orange Builders Team',
-    image: '/images/tips-2.jpg',
+    image: '/images/process_stage5_brickwork.png',
     content: [
       'When planning house construction in Madurai, choosing the right masonry brick material is essential for thermal comfort, structural weight, and plastering durability.',
       'Chamber Red Bricks: Made from burnt clay, red bricks offer exceptional thermal insulation, high load-bearing capacity, and traditional durability. They perform exceptionally well in Madurai’s warm climate.',
@@ -52,7 +52,7 @@ const articlesData: Record<string, BlogPostData> = {
     category: 'Waterproofing Tips',
     date: 'July 15, 2026',
     author: 'Er. Nowsadh',
-    image: '/images/tips-3.jpg',
+    image: '/images/project_kknagar.png',
     content: [
       'Water seepage is one of the most frustrating problems faced by home owners. Protecting your terrace, sunshades, and sunken toilet slabs during construction prevents costly repairs later.',
       '1. Sunken Slab Waterproofing: Apply 2 coats of polymer-modified cementitious chemical slurry before pipe fitting and fill sunken areas with light cinder aggregates.',
