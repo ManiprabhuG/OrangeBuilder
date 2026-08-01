@@ -1,4 +1,7 @@
 import type { Metadata, Viewport } from 'next';
+import Script from 'next/script';
+
+const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_ID || 'G-OBMADURAI1';
 import './globals.css';
 import { ThemeProvider } from '@/context/ThemeContext';
 import { LanguageProvider } from '@/context/LanguageContext';
@@ -10,6 +13,14 @@ export const metadata: Metadata = {
   title: 'Orange Builders Madurai | House Construction Experts',
   description:
     'Orange Builders offers residential house construction, labour contracts, site supervision, and quality construction services in Madurai with transparent pricing and trusted workmanship.',
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/icon.png', type: 'image/png' },
+    ],
+    apple: [{ url: '/apple-icon.png', type: 'image/png' }],
+    shortcut: ['/favicon.ico'],
+  },
   keywords: [
     'House Construction Madurai',
     'Residential Builders Madurai',
@@ -125,6 +136,28 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning className="scroll-smooth">
       <head>
+        {/* Favicon Explicit Tags */}
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/icon.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/apple-icon.png" />
+
+        {/* Google Analytics GA4 Script */}
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_MEASUREMENT_ID}', {
+              page_path: window.location.pathname,
+            });
+          `}
+        </Script>
+
+        {/* Structured Data */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
